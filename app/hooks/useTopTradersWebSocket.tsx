@@ -54,7 +54,7 @@ export const useTopTradersWebSocket = (): UseTopTradersWebSocketReturn => {
         wsRef.current.close()
       }
 
-      wsRef.current = new WebSocket('ws://34.107.31.9/ws/top-traders')
+      wsRef.current = new WebSocket('ws://34.107.31.9/ws/new/top-traders')
 
       wsRef.current.onopen = () => {
         setIsConnected(true)

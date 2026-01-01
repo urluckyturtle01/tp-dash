@@ -25,7 +25,7 @@ module.exports = {
       cwd: '/root/trending-pairs-dashboard',
       env: {
         NODE_ENV: 'production',
-        PORT: 3000,
+        PORT: 3001,
         HOST: '0.0.0.0'
       },
       instances: 1,
@@ -44,7 +44,7 @@ module.exports = {
       cwd: '/root/tp-dash',
       env: {
         NODE_ENV: 'production',
-        PORT: 5050,
+         PORT: 5040,
         HOST: '0.0.0.0'
       },
       instances: 1,

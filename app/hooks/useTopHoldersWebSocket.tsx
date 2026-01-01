@@ -53,7 +53,7 @@ export const useTopHoldersWebSocket = (): UseTopHoldersWebSocketReturn => {
         wsRef.current.close()
       }
 
-      wsRef.current = new WebSocket('ws://34.107.31.9/ws/top-holders')
+      wsRef.current = new WebSocket('ws://34.107.31.9/ws/new/top-holders')
 
       wsRef.current.onopen = () => {
         setIsConnected(true)
